@@ -12,7 +12,7 @@ public class Main {
         int[] array3 = new int[] {9,8,7,13,12,11,10}; //should be true, decreasing order then rotated
         System.out.println("Array 3 is rotated, true or false: " + isItRotated(array3));
         int[] array4 = new int[] {100, 101, 102, 103, 104, 105, 94, 95, 96, 97, 98, 99};
-        System.out.println("Array 4 is rotated, true or false:" + isItRotated(array4));
+        System.out.println("Array 4 is rotated, true or false: " + isItRotated(array4));
         int[] array5 = new int[] {34, 36, 35, 37}; //should be false
         System.out.println("Array 5 is rotated, true or false: " + isItRotated(array5));
         int[] array6 = new int[] {10000000, 9999999, 9999998, 10000001}; //should be false
@@ -43,8 +43,7 @@ public class Main {
 //                System.out.println("K alert: " + k + " Length-1: " + l);
                 return false; //if not, return a false, not descending / increasing and rotated
             }
-        }
-        //after for loop, gone through each value and returned false for every situation
+        } //after for loop, gone through each value and returned false for every situation
         //except an increasing / decreasing not rotated
         int last = arr[arr.length-1];
         int val = Math.abs(last - arr[0]);
