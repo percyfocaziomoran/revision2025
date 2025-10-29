@@ -1,14 +1,3 @@
-//Percy Focazio-Moran
-
-//Problem 4:
-    //Use the Callable interface to find all prime numbers in the range 1 to 1000.
-    //Return the count of primes for each thread.
-//public class OptimisedPrimeNumberSequential {
-//
-//}
-
-//this is my start, didnt' finish sorry
-
 
 public class PrimeNumberSequential {
     static final int N = 1000;
